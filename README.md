@@ -1,5 +1,5 @@
 # cnam.nsy209.selServices.restService
-CNAM NSY209 project 2018 - REST Server for SEL associations
+CNAM NSY209 project 2018 - REST Server for SEL Services
 
 ## Installation
 ### Pre-requisites
