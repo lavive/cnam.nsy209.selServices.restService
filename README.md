@@ -3,6 +3,7 @@ CNAM NSY209 project 2018 - REST Server for SEL associations
 
 ## Installation
 ### Pre-requisites
+* First install [cnam.nsy209.selServices.server](https://github.com/lavive/cnam.nsy209.selServices.server)
 * [Java 8 SDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) installed
 * [Eclipse Oxygen](http://www.eclipse.org/downloads/eclipse-packages/) for JavaEE developper or more installed
 * Maven pluggin installed
