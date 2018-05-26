@@ -18,6 +18,13 @@ import main.GetService;
 import shared.dto.SuppliesDemandsDto;
 import shared.dto.SupplyDemandDto;
 
+/**
+ * Class to provide REST services concerning supply and demand
+ * 
+ * @author lavive
+ *
+ */
+
 @Path("/supplyDemand")
 public class SupplyDemandRESTService {
 

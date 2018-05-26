@@ -5,6 +5,13 @@ import javax.naming.NamingException;
 
 import services.remote.ServicesDao;
 
+/**
+ * Class to get service from server
+ * 
+ * @author lavive
+ *
+ */
+
 public class GetService {
 	
 	public static ServicesDao getServices() throws NamingException {		

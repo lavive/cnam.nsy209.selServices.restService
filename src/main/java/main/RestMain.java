@@ -11,6 +11,13 @@ import org.glassfish.jersey.moxy.json.MoxyJsonConfig;
 import org.glassfish.jersey.moxy.json.MoxyJsonFeature;
 import org.glassfish.jersey.server.ResourceConfig;
 
+/**
+ * Class to launch REST Server based on grizzly server
+ * 
+ * @author lavive
+ *
+ */
+
 public class RestMain {
     // Base URI the Grizzly HTTP server will listen on
     public static final String BASE_URI = "http://0.0.0.0:9991/selServices/";

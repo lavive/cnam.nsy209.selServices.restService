@@ -2,6 +2,13 @@ package shared;
 
 import java.io.Serializable;
 
+/**
+ * DTO picturing authentication
+ * 
+ * @author lavive
+ *
+ */
+
 public class AuthenticationDto implements Serializable{
 
 	private static final long serialVersionUID = 1L;
