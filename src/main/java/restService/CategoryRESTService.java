@@ -17,6 +17,13 @@ import main.GetService;
 import shared.dto.CategoriesDto;
 import shared.dto.CategoryDto;
 
+/**
+ * Class to provide REST services concerning category
+ * 
+ * @author lavive
+ *
+ */
+
 @Path("category")
 public class CategoryRESTService {
 

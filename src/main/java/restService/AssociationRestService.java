@@ -17,6 +17,13 @@ import shared.dto.AssociationDto;
 import shared.dto.MemberDto;
 import shared.dto.MembersDto;
 
+/**
+ * Class to provide REST services concerning association
+ * 
+ * @author lavive
+ *
+ */
+
 @Path("association")
 public class AssociationRestService {
 
@@ -38,7 +45,6 @@ public class AssociationRestService {
     @GET
     @Path("authentication/{login}/{password}/{number}")
     @Produces(MediaType.APPLICATION_JSON)
-    //@Consumes(MediaType.APPLICATION_JSON)
     public MembersDto checkIds(@PathParam("login") String login, @PathParam("password") String password,@PathParam("number") int number) {
 		MembersDto membersDto = new MembersDto();
 		List<MemberDto> resultDto = new ArrayList<MemberDto>();

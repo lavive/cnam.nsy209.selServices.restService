@@ -23,6 +23,13 @@ import shared.dto.NotificationsDto;
 import shared.dto.TransactionsDto;
 import shared.dto.WealthSheetDto;
 
+/**
+ * Class to provide REST services concerning member
+ * 
+ * @author lavive
+ *
+ */
+
 @Path("/member")
 public class MemberRESTService {
 	
@@ -219,7 +226,6 @@ public class MemberRESTService {
     @POST
     @Path("/get/attributes")
 	@Produces(MediaType.APPLICATION_JSON)
-    //@Consumes(MediaType.APPLICATION_JSON)
     public MembersDto getMembers(MemberDto attributes) {
     	System.out.println(attributes+":"+attributes.getAddress());
 		MembersDto membersDto = new MembersDto();
@@ -260,9 +266,6 @@ public class MemberRESTService {
         return membersDto;
     	
     }
-    
-	//public List<MemberDto> delete(MemberDto member, MemberDto attributes) throws DoNotExistException;
-	//public List<MemberDto> deleteLastMember(MemberDto member,int numberToDisplay) throws DoNotExistException;
     
     @POST
     @Path("/post")

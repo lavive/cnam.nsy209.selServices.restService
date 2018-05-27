@@ -17,6 +17,13 @@ import main.GetService;
 import shared.dto.MessageDto;
 import shared.dto.MessagesDto;
 
+/**
+ * Class to provide REST services concerning message
+ * 
+ * @author lavive
+ *
+ */
+
 @Path("message")
 public class MessageRestService {
 

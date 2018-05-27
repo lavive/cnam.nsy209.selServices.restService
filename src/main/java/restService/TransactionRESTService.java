@@ -10,6 +10,13 @@ import javax.ws.rs.core.Response;
 import main.GetService;
 import shared.dto.TransactionDto;
 
+/**
+ * Class to provide REST services concerning transaction
+ * 
+ * @author lavive
+ *
+ */
+
 @Path("/transaction")
 public class TransactionRESTService {
 
